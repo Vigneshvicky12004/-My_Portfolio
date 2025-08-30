@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vignesh | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #222;
+    }
+
+    header {
+      background: #2d3e50;
+      color: #fff;
+      padding: 30px 0 10px 0;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    header h1 {
+      margin: 0 0 10px 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.1rem;
+      transition: color 0.2s;
+    }
+
+    nav ul li a:hover {
+      color: #ffd700;
+    }
+
+    section {
+      background: #fff;
+      margin: 30px auto;
+      padding: 30px 25px;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(44,62,80,0.07);
+    }
+
+    h2 {
+      color: #2d3e50;
+      margin-top: 0;
+      border-bottom: 2px solid #4030f0;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .project {
+      margin-bottom: 18px;
+    }
+
+    .project h3 {
+      margin-bottom: 5px;
+      color: #1a51e8;
+    }
+
+    footer {
+      background: #12abda;
+      color: #fff;
+      text-align: center;
+      padding: 18px 0;
+      margin-top: 40px;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    a {
+      color: #1714af;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vignesh</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate developer exploring Java, MYSQL, and GUI design. I love building practical tools and blending tech with creativity.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p>Bachelor of Electronic and communication engineering<br>
+    DHIRAJLAL GANDHI COLLEGE OF TECNOLOGY, 2022–2026</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java</li>
+      <li>MYSQL</li>
+      <li>GUI Design</li>
+      <li>HTML &amp; CSS</li>
+      <li>Problem Solving</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Numerology Calculator</h3>
+      <p>A Java-based GUI app that blends logic with mysticism.</p>
+    </div>
+    <div class="project">
+      <h3>MYSQL</h3>
+      <p>Database management storing data</p>
+    </div>
+    <div class="project">
+      <h3>Text File Manager</h3>
+      <p>GUI tool for reading and storing text files with multiple extensions.</p>
+    </div>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li>Java Programming Certificate – Coursera</li>
+      <li>MYSQL–Udemy</li>
+      <li>Web Development Basics – edX</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email:vicky120047.gmail.com</p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">Vigneshvicky12004</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Vignesh. All rights reserved.</p>
+  </footer>
+</body>
